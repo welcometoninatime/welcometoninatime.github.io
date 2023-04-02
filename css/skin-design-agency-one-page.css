@@ -393,24 +393,24 @@ body,
 
 /* theme */
 .bkg-theme{
-	background-color: #ff4556;
-	border-color: #ff4556;
+	background-color: #886CF0;
+	border-color: #886CF0;
 }
 .bkg-hover-theme:hover{
-	background-color: #ff4556;
-	border-color: #ff4556;
+	background-color: #886CF0;
+	border-color: #886CF0;
 }
 .border-theme{
-	border-color: #ff4556;
+	border-color: #886CF0;
 }
 .border-hover-theme:hover{
-	border-color: #ff4556;
+	border-color: #886CF0;
 }
 .color-theme{
-	color: #ff4556;
+	color: #886CF0;
 }
 .color-hover-theme:hover{
-	color: #ff4556;
+	color: #886CF0;
 }
 
 /*------------------------------------------------------------------
@@ -917,7 +917,7 @@ body,
 	margin-right: 1.5rem;
 }
 
-/* Button, Dropdown Button Initial, Hover & Active Colors */
+/* .bkg-theme, Dropdown Button Initial, Hover & Active Colors */
 .header .v-align-middle > .button:not(.nav-icon),
 .header .dropdown > .button:not(.nav-icon){
 	background: #232323;
