@@ -54,7 +54,7 @@ input,
 button,
 select,
 textarea{
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family: 'Poppins', 'Helvetica Neue', sans-serif;
 }
 h1, 
 h2, 
@@ -67,7 +67,7 @@ h6,
 .project-description,
 .font-alt-1,
 .counter{
-	font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+	font-family: 'Poppins', 'Helvetica Neue', sans-serif;
 }
 
 /* Titles */
