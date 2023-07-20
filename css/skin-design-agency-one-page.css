@@ -56,7 +56,10 @@ select,
 textarea{
 	font-family: 'Poppins', 'Helvetica Neue', sans-serif;
 }
-h1, 
+h1{
+	font-family: 'Space Grotesk', 'Helvetica Neue', sans-serif;
+}
+
 h2, 
 h3, 
 h4, 
@@ -154,8 +157,8 @@ h6{
 /* Lead */
 .lead,
 blockquote.large{
-	font-size: 2rem;
-	font-weight: 300;
+	font-size: 1.8rem;
+	font-weight: 400;
 	line-height: 1.7;
 }
 
@@ -1808,7 +1811,7 @@ body,
 	font-size: 1.2rem;
 	opacity: 0.7;
 	text-transform: none;
-	font-weight: 300;
+	font-weight: 400;
 	font-style: italic;
 }
 

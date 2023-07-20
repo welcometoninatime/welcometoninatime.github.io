@@ -10,7 +10,7 @@
 
 
 .video {
-  filter: brightness(0.5);
+  filter: brightness(0.6);
 
   opacity: 0;
   transition-property: opacity;
@@ -66,6 +66,7 @@
   color: white;
   line-height: 2rem;
   z-index: 2;
+  mix-blend-mode: lighten;
 }
 
 @media screen and (min-width: 1064px) {
@@ -76,15 +77,17 @@
 }
 
 .text-container h1 {
-  font-size: 4rem;
-  line-height: 3.5rem;
+  font-size: 5rem;
+  line-height: 3rem;
   margin: 0;
   color: white;
+  opacity: 50%;
 }
 
+
 .text-container h3 {
-  font-size: 2rem;
-  font-weight: 300;
+  font-size: 1.8rem;
+  font-weight: 400;
   margin: 0;
   color: white;
 }
