@@ -43,6 +43,7 @@ Copyright: ThemeMountain
 */
 
 body{
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 	letter-spacing: 0;
 	font-weight: 400;
 	font-size: 1.4rem;
@@ -53,11 +54,9 @@ body,
 input,
 button,
 select,
-textarea{
-	font-family: 'Poppins', 'Helvetica Neue', sans-serif;
-}
+textarea
 h1{
-	font-family: 'Space Grotesk', 'Helvetica Neue', sans-serif;
+	font-family: 'Poppins', 'Helvetica Neue', sans-serif;
 }
 
 h2, 
@@ -70,7 +69,7 @@ h6,
 .project-description,
 .font-alt-1,
 .counter{
-	font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* Titles */
@@ -80,8 +79,10 @@ h3,
 h4,
 h5,
 h6{
+	font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+
 	line-height: 1.2;
-	font-weight: 700;
+	font-weight: 400;
 	text-transform: normal;
 	color: #000;
 }
@@ -603,7 +604,7 @@ body,
 
 /* Initial Logo Width */
 .header .logo{
-	width: 12.5rem;
+	width: 15rem;
 }
 
 /* Compacted Header Logo Width */

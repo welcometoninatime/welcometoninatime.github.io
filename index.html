@@ -13,8 +13,12 @@
 	<link rel="shortcut icon" type="image/x-icon" href="images/logos/favicon.ico">
 
 	<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CLato:300,400,700' rel='stylesheet' type='text/css'>
+
+	<!--
 	<link href='Open+Sans:ital,wght@0,300;0,600;0,700;1,400&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&family=Space+Grotesk:wght@700&display=swap'
 		rel='stylesheet' type='text/css'>
+-->
 
 	<!-- Css -->
 	<link rel="stylesheet" href="css/video-hero.css" />
@@ -89,10 +93,10 @@
 							<div class="logo">
 								<div class="logo-inner">
 									<a href="index.html"><img
-											src="images/namelogo/ninalogo_signature_black_cropped.png"
+											src="images/namelogo/poppins_reg_black.png"
 											alt="Nina Signature Logo" /></a>
 									<a href="index.html"><img
-											src="images/namelogo/ninalogo_signature_white_cropped.png"
+											src="images/namelogo/poppins_reg_white.png"
 											alt="Nina Signature Logo" /></a>
 								</div>
 							</div>
@@ -138,7 +142,7 @@
 				<section id='home' class='window-height'>
 					<div class='video-wrapper'>
 						<div class='video-player'>
-							<iframe onload="this.style.opacity = '1';" class='video'
+							<iframe onload="this.style.opacity = '0.5';" class='video'
 								src="https://player.vimeo.com/video/843523922?h=556394654b&controls=0&autoplay=1&background=1&loop=1&title=0&byline=0&portrait=0"
 								frameborder="0"></iframe>
 							<script src="https://player.vimeo.com/api/player.js"></script>
@@ -147,38 +151,48 @@
 
 					<div class='flex-wrap'>
 						<div class='text-container'>
-							<h1 class="fadeInBottom">NINA ECKSTEIN</h1>
+							<h1 class="fadeInBottom" style="font-weight: 500;">Biomedical Visualization</h1>
 							<br />
-							<h3 class="fadeInBottom">Biomedical animation and visualization</h3>
+							<h3 class="fadeInBottom">Medical Animation and Illustration</h3>
 							<br /> <br /> <br /> <br /> 
-							<a href="https://vimeo.com/815460529" target="_blank"
-								class="fadeInBottom button bkg-white border-hover-white color-black color-hover-white"
+							<a href="#demoreel" target="_blank"
+								class="scroll-link fadeInBottom button bkg-hover-white border-white color-white color-hover-black"
 								style="border-radius:50px;">View Demo Reel</a>
+							<!--<a href="https://vimeo.com/815460529" target="_blank"
+								class="fadeInBottom button bkg-white border-hover-white color-black color-hover-white"
+								style="border-radius:50px;">View Demo Reel</a>-->
 						</div>
 					</div>
 				</section>
 				<!-- Fullscreen Slider Section End -->
 
 				<!-- About -->
-				<section id="demoreel">
+				<section id="demoreel1">
 
 					<!-- Intro About -->
 					<div class="section-block pb-40">
+						<section id="demoreel">
 						<div class="row">
 							<div class="column width-3">
-								<h2 class="mb-40" style="color: charcoal;">Hello!</h2>
+								<h2>Hello!</h2>
 							</div>
 							<div class="column width-9">
 								<!--
 								<a href="https://vimeo.com/815460529" target="_blank" class="button medium bkg-theme border-hover-theme color-white color-hover-theme" style="border-radius:50px;">View Demo Reel</a>
 								<br><br>
                 -->
-								<p class="lead">With a focus on biomedial animation and illustration, I specialize in
+								<p>With a focus on biomedial animation and illustration, Nina specializes in
 									creating clear, accurate, and beautiful pieces designed to
-									educate and captivate. My passion is in finding the story at the
-									heart of complex scientific topics, and sharing it through visual media.</p>
+									educate and captivate. Her goal is to help people understand medical 
+									stories through clear, accurate visualizations.</p>
+
+									<div style="padding:56.25% 0 0 0;position:relative;">
+										<iframe src="https://player.vimeo.com/video/815460529?h=8a28f4a591" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+										</iframe>
+									</div><script src="https://player.vimeo.com/api/player.js"></script>
 							</div>
 						</div>
+						</section>
 					</div>
 					<!-- Intro About End -->
 				</section>
@@ -200,9 +214,9 @@
 							<div class="column width-9">
 
 
-							--Case Study 1--
+							!--Case Study 1--
 							<div class="row" style="padding-bottom: 20px;">
-							<div class="column width-6" style="padding-left: 0px;">
+							<div class="column width-6">
 								<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity=".75" style="margin-bottom: 15px;">
 									<a class="overlay-link" href="casestudy1.html">
 										<img src="images/casestudy/ovulation_casestudy_cover.png" alt=""/>
@@ -210,7 +224,7 @@
 											<span>
 												<span>
 													<span>
-														<span class="project-title">View Case Study</span> <br>
+														<span class="project-title">Click to View</span> <br>
 													</span>
 												</span>
 											</span>
@@ -219,24 +233,26 @@
 								</div>
 							</div>
 							<div class="column width-6" style="padding-right: 0px;">
-								<span class="project-title weight-bold text-uppercase">ANIMATION</span>
-								<h3 class="weight-regular">Ovulation</h3>
-								<p>Visualization of ovulation <br><br>
+								<p class="project-attribute">
+									<span class="project-label">ANIMATION</span>
+								</p>
+								<h3 class="widget-title">Ovulation</h3>
+								<p>Visualization of ovulation <br>
 								<em>ZBrush, Autodesk 3ds Max, After Effects</em></p>
 							</div>
 						</div>
 
-							--Case Study 2--
+							!--Case Study 2 : In Silico--
 							<div class="row" style="padding-bottom: 20px;">
-								<div class="column width-6" style="padding-left: 0px;">
+								<div class="column width-6">
 									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity=".75" style="margin-bottom: 15px;">
-										<a class="overlay-link" href="casestudy2.html">
-											<img src="images/casestudy/casestudy2/penguins_casestudy_cover.png" alt=""/>
+										<a class="overlay-link" href="casestudy3.html">
+											<img src="images/casestudy/casestudy3/casestudy3_collage.png" alt=""/>
 											<span class="overlay-info">
 												<span>
 													<span>
 														<span>
-															<span class="project-title">View Case Study</span> <br>
+															<span class="project-title">Click to View</span> <br>
 														</span>
 													</span>
 												</span>
@@ -245,16 +261,18 @@
 									</div>
 								</div>
 								<div class="column width-6" style="padding-right: 0px;">
-									<span class="project-title weight-bold text-uppercase">3D MODELING</span>
-									<h3 class="weight-regular">Plight of the Hoiho</h3>
-									<p>An illustration drawing attention to the hazards facing New Zealand's endangered yellow-eyed penguins at various stages of the life cycle.<br><br>
-									<em>ZBrush, Autodesk 3ds Max, Photoshop, Illustrator</em></p>
+									<p class="project-attribute">
+										<span class="project-label">ANIMATION</span>
+									</p>
+									<h3 class="widget-title">Visualizing In Silico Clinical Trials</h3>
+									<p>A trio of animations designed to visually communicate ongoing in silico research led by scientists at the FDA.<br><br>
+									<em>Cinema 4D, Houdini, Redshift, After Effects, ZBrush, Substance Painter</em></p>
 								</div>
 							</div>
 
-							--Case Study 3--
+							!--Case Study 3--
 							<div class="row" style="padding-bottom: 20px;">
-								<div class="column width-6" style="padding-left: 0px;">
+								<div class="column width-6">
 									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity=".75" style="margin-bottom: 15px;">
 										<a class="overlay-link" href="casestudy2.html">
 											<img src="images/casestudy/casestudy01.png" alt=""/>
@@ -262,7 +280,7 @@
 												<span>
 													<span>
 														<span>
-															<span class="project-title">View Case Study</span> <br>
+															<span class="project-title">Click to View</span> <br>
 														</span>
 													</span>
 												</span>
@@ -273,7 +291,7 @@
 								<div class="column width-6" style="padding-right: 0px;">
 									<span class="project-title weight-bold text-uppercase">ANIMATION</span>
 									<h3 class="weight-regular">Rhodopsin</h3>
-									<p>Didactic exploration of rhodopsin's role in the human retina <br><br>
+									<p>Didactic exploration of rhodopsin's role in the human retina. An illustration drawing attention to the hazards facing New Zealand's endangered yellow-eyed penguins at various stages of the life cycle.<br><br>
 									<em>ZBrush, Autodesk 3ds Max, After Effects</em></p>
 								</div>
 							</div>
@@ -282,10 +300,8 @@
 						</div>
 						</div>
 					</div>
-
-				-- Case Study End --
 			</section>
-			-- Case Study End -->
+			!-- Case Study End -->
 
 				<!-- Gallery Section -->
 				<div id="gallery">
@@ -305,8 +321,9 @@
 									<ul>
 										<li><a class="active" href="#" data-filter="*">All</a></li>
 										<!-- <li><a href="#" data-filter=".animation">Animation</a></li> -->
-										<li><a href="#" data-filter=".illustration">Illustration</a></li>
+										<li><a href="#" data-filter=".illustration">2D Illustration</a></li>
 										<li><a href="#" data-filter=".modeling">3D Modeling</a></li>
+										<li><a href="#" data-filter=".molecular">Molecular Visualization</a></li>
 										<!-- <li><a href="#" data-filter=".design">Design</a></li>
 										<li><a href="#" data-filter=".interactive">Interactive</a></li> -->
 									</ul>
@@ -350,7 +367,7 @@
 										</div>
 									</div>
 
-									<div class="grid-item modeling">
+									<div class="grid-item modeling molecular">
 										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut"
 											data-hover-speed="500" data-hover-bkg-color="#ffffff"
 											data-hover-bkg-opacity="1">
@@ -375,7 +392,7 @@
 										</div>
 									</div>
 									
-									<div class="grid-item modeling">
+									<div class="grid-item modeling molecular">
 										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut"
 											data-hover-speed="500" data-hover-bkg-color="#ffffff"
 											data-hover-bkg-opacity="1">
@@ -452,7 +469,7 @@
 										</div>
 									</div>
 
-									<div class="grid-item modeling">
+									<div class="grid-item modeling molecular">
 										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut"
 											data-hover-speed="500" data-hover-bkg-color="#ffffff"
 											data-hover-bkg-opacity="1">
@@ -578,6 +595,31 @@
 										</div>
 									</div>
 
+									<div class="grid-item modeling">
+										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut"
+											data-hover-speed="500" data-hover-bkg-color="#ffffff"
+											data-hover-bkg-opacity="1">
+											<a class="overlay-link lightbox-link" data-group="project-4"
+												data-caption="Title: Lungs, Trachea, & Larynx, Media: ZBrush, 3DS Max, Arnold, Adobe Illustrator"
+												data-image-url="http://sartre.thememountain.com/images/design-agency/portfolio/grid/no-margins/project-4-lightbox.jpg"
+												href="images/gallery/Lungs.png"
+												data-lightbox-animation="slideInBottom">
+												<img src="images/gallery/Lungs_square2.png"
+													alt="A rendering of a 3D model of the human lungs, trachea, and larynx, with anatomical structures labeled." />
+												<span class="overlay-info">
+													<span>
+														<span>
+															<span>
+																<span class="project-title">Lungs, Trachea, & Larynx</span>
+																<span class="project-description">ZBrush, 3DS Max, Arnold, Adobe Illustrator</span>
+															</span>
+														</span>
+													</span>
+												</span>
+											</a>
+										</div>
+									</div>
+
 									<!-- <div class="grid-item design">
 										<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
 											<a class="overlay-link lightbox-link" data-group="project-5" data-caption="Bstrd Clothing Company" data-image-url="http://sartre.thememountain.com/images/design-agency/portfolio/grid/no-margins/project-5-lightbox.jpg" href="images/design-agency/portfolio/grid/no-margins/project-5-lightbox.jpg" data-lightbox-animation="slideInBottom">
@@ -645,19 +687,37 @@
 					<div class="section-block pb-40">
 						<div class="row">
 							<div class="column width-3">
-								<img src="images/headshot/headshot_round.png"
+								<img src="images/headshot/headshot_round_updated.png"
 									alt="A headshot portrait of Nina Eckstein" />
 							</div>
 							<div class="column width-9">
 
-								<h2 class="mb-40">Hi, I'm Nina!</h2>
+								<h2 class="widget-title">About Nina</h3>
 
-								<p class="lead">I was born and raised in Salt Lake City, and I graduated from the
-									University of Utah with a BS in biology. Following graduation, I spent several years
-									living and working in Japan before moving to Chicago. I’m passionate about both
-									science and art, with an interest in facilitating dialogue between scientific and
-									medical communities and the general public.
-									Apart from my interests in biology and art, I'm an avid crossword-solver, birdwatcher, and cactus collector.
+								<p>
+									Nina is a biomedical visualization specialist with a focus on animation and digital media. 
+									Drawing on her dual background in science and art, she creates visually compelling, reasearch-based 
+									pieces that communicate and illuminate scientific stories.
+									<br><br>
+
+									She graduated from the University of Utah with a Biology BS and minors in Drawing and Chemistry. 
+									Following graduation, she spent several years living and working in Japan before 
+									moving to Chicago to continue her education at the 
+									MS Biomedical Visualization (BVIS) program at the University of Illinois at Chicago.
+									<br><br>
+
+									During her time as a graduate student at BVIS, she focused on expanding her skills in 
+									2D and 3D animation, 3D modeling, interactive development, graphic design, and learning theory. 
+									She was honored to receive the Alice and 
+									Brian Katz Scholarship, which is awarded by faculty vote in recognition of academic achievement. 
+									After completion of her MS degree, she participated in a research fellowship at the FDA through the
+									Oak Ridge Institute for Science and Education (ORISE). 
+									<!--As an ORISE fellow, she created animations on in silico imaging and virtual clinical trials to 
+									showcase current research. -->
+									
+									<br><br>
+									When not in the studio, she can be found hiking, cooking, solving crosswords, 
+									and tending to her collection of plants.
 								</p>
 								<ul class="social-list list-horizontal">
 									<li><a href="https://www.linkedin.com/in/nina-eckstein-427a2b264/"
@@ -701,11 +761,12 @@
 					<div class="section-block pb-40">
 						<div class="row">
 							<div class="column width-3">
-								<h2 class="mb-40">Contact</h2>
-								<p class="mb-10"><a
-										href="mailto:eckstein.visuals@gmail.com">eckstein.visuals@gmail.com</a></p>
+								<h2>Contact</h2>
 							</div>
 							<div class="column width-9">
+								<!-- <h3 class="widget-title">I'd love to hear from you!</h3> -->
+								<p>Nina is currently available for freelance projects. Please fill out the form below or send a message to <a
+									href="mailto:eckstein.visuals@gmail.com">eckstein.visuals@gmail.com</a> to discuss your project.</p>
 
 								<form action="https://usebasin.com/f/cdde9c3d660b" method="POST"
 									enctype="multipart/form-data" id="form">
@@ -716,7 +777,7 @@
 									<label for="message">Message</label>
 									<textarea name="message"></textarea>
 									<button
-										class="button medium bkg-charcoal border-hover-charcoal color-white color-hover-charcoal"
+										class="button medium bkg-hover-charcoal border-charcoal color-hover-white color-charcoal"
 										style="border-radius:50px;" type="submit">Submit</button>
 								</form>
 

@@ -43,7 +43,7 @@ Copyright: ThemeMountain
 */
 
 body{
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family: 'Poppins', 'Helvetica Neue', sans-serif;
 	letter-spacing: 0;
 	font-weight: 400;
 	font-size: 1.4rem;
@@ -79,8 +79,9 @@ h3,
 h4,
 h5,
 h6{
+	font-family: 'Poppins', 'Helvetica Neue', sans-serif;
 	line-height: 1.2;
-	font-weight: 300;
+	font-weight: 400;
 	text-transform: none;
 	color: #000;
 }

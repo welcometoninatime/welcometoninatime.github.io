@@ -1176,6 +1176,13 @@ img{
     display:inline-block;
     vertical-align:bottom
 }
+.thumbnailcasestudy{
+    position:relative;
+    overflow:hidden;
+    display:inline-block;
+    vertical-align:bottom;
+    margin-bottom:1rem;
+}
 .thumbnail.rounded,img.rounded{
     border-radius:.3rem
 }
@@ -3412,7 +3419,6 @@ ol ol,ol ul,ul ol,ul ul{
 iframe{
     width:100%;
     border:none;
-    background:#000
 }
 .divider,hr{
     margin:3rem 0;
